@@ -1,8 +1,8 @@
 # Mehedi Hasan
 
-**Software Engineer · Full Stack** — building SaaS platforms, AI products and enterprise CRM systems.
+**Software Engineer · Full Stack**
 
-I design and ship end-to-end products: web frontends, backend services, data pipelines, and the cloud infrastructure they run on. My work powers sales, campaign and customer-engagement operations for large telecom and FMCG companies.
+Hi! I build web apps and backend systems from start to finish — the frontend, the APIs, the database, and the servers they run on. Right now I work on AI products and large business systems used by telecom and FMCG companies.
 
 ## Experience
 
@@ -13,40 +13,44 @@ I design and ship end-to-end products: web frontends, backend services, data pip
 
 ## Featured work
 
-### 🤖 AI document generation engine — *conversational AI platform*
-Owner of the generation service in an 11-microservice NestJS platform.
-- The LLM calls a tool that emits a typed document model, which I render to **PDF, DOCX, PPTX and HTML**
-- Hand-written OOXML writer for Word and PowerPoint, with embedded Bangla fonts and native PowerPoint charts built from numeric tables
-- Detects malformed model output and repairs it or retries once within the token budget; web search with citations and editing of existing documents
+Here are some of the most challenging things I've worked on.
 
-### 🧭 LLM model routing & token billing — *conversational AI platform*
-- In-house prompt-complexity classifier in the API gateway that picks the model tier for every request
-- Tokens are reserved before the call and settled after it, billed on the model that actually answered
-- Admin controls: maker-checker approvals, hash-chained audit log, legal holds and dual-control refunds
+### 🤖 AI that writes documents
+In a large AI assistant platform, I own the part that turns a chat request into a real file.
+- The AI writes the content, and my code turns it into **PDF, Word, PowerPoint or a web page**.
+- I wrote the Word and PowerPoint file builder by hand, with Bangla font support and real charts in slides.
+- If the AI sends back broken output, the system fixes it or tries again once.
 
-### 📡 High-volume field-force CRM — *for a leading telecom operator*
-Lead on the location, login, report and upload services of a multi-tenant Node.js / PostgreSQL microservice platform.
-- Streams **~400k geo-tagged rows (~190 MB)** in one response: PostgreSQL cursor → gzip → HTTP with backpressure, cached in Redis until the next import
-- Fault-tolerant bulk CSV import: background batches of 2,000 rows, per-row error reports, recovery of stuck imports, and materialized-view refresh only when the whole import succeeds
-- Mobile auth across services: JWT + Redis sessions, one device per user per day, OTP, lockout, app-version gating and face-recognition check-in
-- Led the move of every service to PgBouncer for connection stability
+### 🧭 Choosing the right AI model, and billing for it
+- I built a small classifier that reads each question and picks the right AI model for it — simple questions go to cheaper models.
+- Users are charged fairly: credits are held before the answer and settled after, based on the model that actually replied.
+- I also built admin tools like two-person approvals and a tamper-proof audit log.
 
-### 🎵 Music & video distribution SaaS — *sole developer*
-- Royalty revenue engine: imports store reports, normalizes ISRCs, applies label revenue shares and tax, and powers per-track / per-label / per-platform analytics
-- Fine-grained, database-backed access scoping for staff, enforced by guards and a scoped-query registry
-- Zero-downtime Docker Swarm deploys, Redis/Bull job queues with retries, presigned direct-to-S3 uploads and audio-fingerprint copyright checks
+### 📡 Field sales system for a big telecom company
+I lead several backend services in a system used by field sales teams across the country.
+- One API sends about **400,000 shop locations (~190 MB)** in one go without running out of memory, by streaming the data in small parts.
+- Large CSV uploads run in the background, report errors row by row, and never show half-finished data.
+- Secure mobile login: one device per user per day, OTP, account lockout, and a selfie check-in with face recognition.
 
-### 🏫 Multi-tenant school management SaaS — *top contributor*
-- Attendance pipeline: a queue worker computes on-time / late / absent with SQL window functions, pulls data from attendance devices and sends SMS to guardians
-- Bulk and template SMS and voice messaging with Unicode-aware segment counting and a credit ledger
-- ~90-model data schema covering fees, invoices, online payments across branches and bulk admission
+### 🎵 Music & video distribution platform — *built solo*
+A platform where music labels upload songs and videos, send them to stores, and get paid.
+- I built the royalty system: it reads sales reports from stores and splits the money between labels correctly.
+- Staff only see what they are allowed to see.
+- Updates go live with zero downtime, and heavy jobs run in a background queue.
 
-### 📝 Assessment platform — *sole author, running for two companies*
-- NestJS + Drizzle exam service with timed multi-section exams, partial-credit scoring in a single transaction, and resumable chunked uploads to Azure Blob and S3
+### 🏫 School management SaaS — *my own product*
+One system that many schools use, each with its own website and data.
+- Attendance is collected from devices automatically, and parents get an SMS if their child is late or absent.
+- Bulk SMS and voice messages to parents, with SMS credit tracking.
+- Fees, invoices, online payments, and bulk student admission.
 
-### 📄 Print-accurate document builders
-- Resume builder with measured pagination shared by preview and print, auto-fit to one page, and a drag-and-drop layout editor — WCAG AA, Vitest + Playwright tests
-- [Bengali/English biodata builder](https://github.com/mehedihasansumit/bio-data) (open source) with A4 page layout and 8 print templates
+### 📝 Online exam system — *built solo*
+- Timed exams with multiple sections, automatic scoring, and support for large file uploads.
+- The same system now runs for two different companies.
+
+### 📄 Document builders
+- A resume builder that shows exactly how each page will print, can shrink a resume to fit one page, and lets you drag and drop sections.
+- [Biodata builder](https://github.com/mehedihasansumit/bio-data) (open source) — make a Bengali or English marriage biodata and print it on A4, with 8 templates.
 
 ## Tech stack
 
