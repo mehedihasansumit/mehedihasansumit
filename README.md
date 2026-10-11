@@ -23,25 +23,25 @@ I design and ship end-to-end products: web frontends, backend services, data pip
 
 ## Tech stack
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/Amazon_S3-FF9900?style=flat-square&logoColor=black)
-![Azure Blob Storage](https://img.shields.io/badge/Azure_Blob_Storage-0078D4?style=flat-square&logoColor=white)
-![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![TypeScript](assets/badges/typescript.svg)
+![JavaScript](assets/badges/javascript.svg)
+![React](assets/badges/react.svg)
+![Next.js](assets/badges/next-js.svg)
+![Node.js](assets/badges/node-js.svg)
+![NestJS](assets/badges/nestjs.svg)
+![Python](assets/badges/python.svg)
+![Go](assets/badges/go.svg)
+![MongoDB](assets/badges/mongodb.svg)
+![PostgreSQL](assets/badges/postgresql.svg)
+![MySQL](assets/badges/mysql.svg)
+![Tailwind CSS](assets/badges/tailwind-css.svg)
+![Docker](assets/badges/docker.svg)
+![Kubernetes](assets/badges/kubernetes.svg)
+![Helm](assets/badges/helm.svg)
+![Nginx](assets/badges/nginx.svg)
+![Amazon S3](assets/badges/amazon-s3.svg)
+![Azure Blob Storage](assets/badges/azure-blob-storage.svg)
+![Cloudflare R2](assets/badges/cloudflare-r2.svg)
 
 ## GitHub activity
 
@@ -57,5 +57,5 @@ I design and ship end-to-end products: web frontends, backend services, data pip
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehedi-hasan-sumit-103621210/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mehedihasansumit@gmail.com)
+[![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/mehedi-hasan-sumit-103621210/)
+[![Email](assets/badges/email.svg)](mailto:mehedihasansumit@gmail.com)
