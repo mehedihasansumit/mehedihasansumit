@@ -11,15 +11,42 @@ I design and ship end-to-end products: web frontends, backend services, data pip
 | **Software Engineer** | [V2 Technologies LTD](https://github.com/V2-Technologies-LTD) — AI-powered products and enterprise platforms | Nov 2024 – Present |
 | **Software Engineer** | [X Solutions Ltd](https://github.com/X-Solutions-Ltd) — sales-force and distribution management systems | Jan 2025 – Present |
 
-## What I've built
+## Featured work
 
-- **Microservice CRM & campaign platform** — 12+ Node.js services (auth, users, roles, organizations, agencies, locations, cluster mapping, uploads, notifications, reports, campaigns) deployed for multiple enterprise clients
-- **Conversational AI assistant** — TypeScript web app and backend with an integrated WhatsApp CRM, plus an iOS app
-- **AI-assisted retail audit system** — randomly audits point-of-sale market visits made by field merchandisers
-- **Sales-force & distribution suite** — product, sales and territory management with an Android app for field teams and bulk user onboarding
-- **Training platforms** — web and backend for onboarding and upskilling field staff
-- **Data automation** — Python services for automated reporting, anomaly detection and operations dashboards
-- **Cloud infrastructure** — Docker, Kubernetes and Helm deployments with CI/CD pipelines
+### 🤖 AI document generation engine — *conversational AI platform*
+Owner of the generation service in an 11-microservice NestJS platform.
+- The LLM calls a tool that emits a typed document model, which I render to **PDF, DOCX, PPTX and HTML**
+- Hand-written OOXML writer for Word and PowerPoint, with embedded Bangla fonts and native PowerPoint charts built from numeric tables
+- Detects malformed model output and repairs it or retries once within the token budget; web search with citations and editing of existing documents
+
+### 🧭 LLM model routing & token billing — *conversational AI platform*
+- In-house prompt-complexity classifier in the API gateway that picks the model tier for every request
+- Tokens are reserved before the call and settled after it, billed on the model that actually answered
+- Admin controls: maker-checker approvals, hash-chained audit log, legal holds and dual-control refunds
+
+### 📡 High-volume field-force CRM — *for a leading telecom operator*
+Lead on the location, login, report and upload services of a multi-tenant Node.js / PostgreSQL microservice platform.
+- Streams **~400k geo-tagged rows (~190 MB)** in one response: PostgreSQL cursor → gzip → HTTP with backpressure, cached in Redis until the next import
+- Fault-tolerant bulk CSV import: background batches of 2,000 rows, per-row error reports, recovery of stuck imports, and materialized-view refresh only when the whole import succeeds
+- Mobile auth across services: JWT + Redis sessions, one device per user per day, OTP, lockout, app-version gating and face-recognition check-in
+- Led the move of every service to PgBouncer for connection stability
+
+### 🎵 Music & video distribution SaaS — *sole developer*
+- Royalty revenue engine: imports store reports, normalizes ISRCs, applies label revenue shares and tax, and powers per-track / per-label / per-platform analytics
+- Fine-grained, database-backed access scoping for staff, enforced by guards and a scoped-query registry
+- Zero-downtime Docker Swarm deploys, Redis/Bull job queues with retries, presigned direct-to-S3 uploads and audio-fingerprint copyright checks
+
+### 🏫 Multi-tenant school management SaaS — *top contributor*
+- Attendance pipeline: a queue worker computes on-time / late / absent with SQL window functions, pulls data from attendance devices and sends SMS to guardians
+- Bulk and template SMS and voice messaging with Unicode-aware segment counting and a credit ledger
+- ~90-model data schema covering fees, invoices, online payments across branches and bulk admission
+
+### 📝 Assessment platform — *sole author, running for two companies*
+- NestJS + Drizzle exam service with timed multi-section exams, partial-credit scoring in a single transaction, and resumable chunked uploads to Azure Blob and S3
+
+### 📄 Print-accurate document builders
+- Resume builder with measured pagination shared by preview and print, auto-fit to one page, and a drag-and-drop layout editor — WCAG AA, Vitest + Playwright tests
+- [Bengali/English biodata builder](https://github.com/mehedihasansumit/bio-data) (open source) with A4 page layout and 8 print templates
 
 ## Tech stack
 
