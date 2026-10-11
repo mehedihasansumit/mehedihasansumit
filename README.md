@@ -43,18 +43,6 @@ I design and ship end-to-end products: web frontends, backend services, data pip
 ![Azure Blob Storage](assets/badges/azure-blob-storage.svg)
 ![Cloudflare R2](assets/badges/cloudflare-r2.svg)
 
-## GitHub activity
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=mehedihasansumit&show_icons=true&hide_border=true&include_all_commits=true" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mehedihasansumit&layout=compact&hide_border=true" alt="Top languages" height="165" />
-</p>
-<p>
-  <img src="https://streak-stats.demolab.com/?user=mehedihasansumit&hide_border=true" alt="Contribution streak" />
-</p>
-
-<sub>Most of my work lives in private organization repositories, so these numbers show only part of it.</sub>
-
 ## Connect
 
 [![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/mehedi-hasan-sumit-103621210/)
