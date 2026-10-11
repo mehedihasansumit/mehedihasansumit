@@ -76,5 +76,5 @@ One system that many schools use, each with its own website and data.
 
 ## Connect
 
-[![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/mehedi-hasan-sumit-103621210/)
+[![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/mehedi-hasan-103621210)
 [![Email](assets/badges/email.svg)](mailto:mehedihasansumit@gmail.com)
