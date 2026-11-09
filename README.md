@@ -2,14 +2,13 @@
 
 **Software Engineer · Full Stack**
 
-Hi! I build web apps and backend systems from start to finish — the frontend, the APIs, the database, and the servers they run on. Right now I work on AI products and large business systems used by telecom and FMCG companies.
+Hi! I'm Mehedi, a software engineer at **V2 Technologies Ltd**. I build websites and apps from start to end — the part you see, the part behind it, and the servers it runs on. These days I mostly work on AI products. I like simple code, solving hard problems, and learning new things every day.
 
 ## Experience
 
 | Role | Company | Period |
 |---|---|---|
-| **Software Engineer** | [V2 Technologies LTD](https://github.com/V2-Technologies-LTD) — AI-powered products and enterprise platforms | Nov 2024 – Present |
-| **Software Engineer** | [X Solutions Ltd](https://github.com/X-Solutions-Ltd) — sales-force and distribution management systems | Jan 2025 – Present |
+| **Software Engineer** | [V2 Technologies Ltd](https://github.com/V2-Technologies-LTD) — AI-powered products and business platforms | Nov 2024 – Present |
 
 ## Featured work
 
