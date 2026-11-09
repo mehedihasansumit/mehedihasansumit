@@ -14,22 +14,21 @@ Hi! I'm Mehedi, a software engineer at **V2 Technologies Ltd**. I build websites
 
 Here are some of the most challenging things I've worked on.
 
-### 🤖 AI that writes documents
-In a large AI assistant platform, I own the part that turns a chat request into a real file.
+### 🤖 AI that writes documents — *at V2 Technologies Ltd*
+In a large AI assistant platform, I own the part that turns a chat message into a real file.
 - The AI writes the content, and my code turns it into **PDF, Word, PowerPoint or a web page**.
-- I wrote the Word and PowerPoint file builder by hand, with Bangla font support and real charts in slides.
+- I wrote the Word and PowerPoint file builder by hand, with Bangla text support and real charts in slides.
 - If the AI sends back broken output, the system fixes it or tries again once.
 
-### 🧭 Choosing the right AI model, and billing for it
-- I built a small classifier that reads each question and picks the right AI model for it — simple questions go to cheaper models.
-- Users are charged fairly: credits are held before the answer and settled after, based on the model that actually replied.
-- I also built admin tools like two-person approvals and a tamper-proof audit log.
+### 🎨 Slide designer — *at V2 Technologies Ltd*
+- The AI designs each slide, and my code makes sure the text fits and nothing overlaps.
+- A library of **178 slide layouts** and **54 ready-made templates** to start from.
+- Users can put their own logo on every slide, and the layout keeps space for it.
 
-### 📡 Field sales system for a big telecom company
-I lead several backend services in a system used by field sales teams across the country.
-- One API sends about **400,000 shop locations (~190 MB)** in one go without running out of memory, by streaming the data in small parts.
-- Large CSV uploads run in the background, report errors row by row, and never show half-finished data.
-- Secure mobile login: one device per user per day, OTP, account lockout, and a selfie check-in with face recognition.
+### 🧭 Choosing the right AI model, and billing for it — *at V2 Technologies Ltd*
+- A small classifier reads each question and picks the right AI model — simple questions go to cheaper models.
+- Users pay fairly: credits are held before the answer and settled after, based on the model that actually replied.
+- Admin tools like two-person approval (one person asks, another says yes) and an audit log that can't be secretly changed.
 
 ### 🎵 Music & video distribution platform — *built solo*
 A platform where music labels upload songs and videos, send them to stores, and get paid.
